@@ -1,12 +1,12 @@
 # Hi there, I'm purvanshbhatt! 👋
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3A0dWN5ZzF0d2pwdDE3Z3Y0cmpmM3c0dHZiaWJ3ZDA5dGR2c3E5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5hpueFgs/giphy.gif" width="200" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3emM1NG1xZXd5Z21lcWRkNWMzMXp0OGdobTdtdjJ4enJkaWdiaXRqeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ohONS2y8GTDoI/giphy.gif" width="500" />
 </p>
 
 ## 🚀 About Me
 
-I'm a passionate **[Your Profession]** based in **[Your Location]**. I enjoy building innovative projects and I'm always looking to learn and grow in the tech community.
+I'm a passionate **DFIR & GRC Specialist | Ethical Hacker** based in **New York City**. I enjoy building innovative projects and I'm always looking to learn and grow in the tech community.
 
 ---
 
@@ -14,11 +14,14 @@ I'm a passionate **[Your Profession]** based in **[Your Location]**. I enjoy bui
 
 Here are a few technologies I've been working with recently:
 
-- **Languages:** `[Language 1]`, `[Language 2]`, `[Language 3]`
-- **Frameworks/Libraries:** `[Framework 1]`, `[Framework 2]`, `[Framework 3]`
-- **Databases:** `[Database 1]`, `[Database 2]`
-- **Cloud & DevOps:** `[Tool 1]`, `[Tool 2]`
-- **Other:** `[Tool 3]`
+| Core Disciplines | Tools & Platforms | Languages |
+|---|---|---|
+| Digital Forensics (DFIR) | Kali Linux | Python |
+| Incident Response | Wireshark | TypeScript |
+| Network Security | Metasploit | JavaScript |
+| Ethical Hacking | Burp Suite | SQL |
+| Web App Security | Nmap | C++ / Java |
+| Identity & Access (IAM) | SIEM Solutions | HTML / CSS |
 
 ---
 
@@ -28,9 +31,9 @@ Here are some of my favorite projects. You can find more on my repositories tab!
 
 | Project Name | Description | Technologies Used |
 |--------------|-------------|-------------------|
-| **[Project Name 1](link-to-project-1)** | A brief and engaging description of your project. | `Tech 1`, `Tech 2`, `Tech 3` |
-| **[Project Name 2](link-to-project-2)** | A brief and engaging description of your project. | `Tech 1`, `Tech 2`, `Tech 3` |
-| **[Project Name 3](link-to-project-3)** | A brief and engaging description of your project. | `Tech 1`, `Tech 2`, `Tech 3` |
+| **[Multi-Tool-Vulnerability-Scanner](https://github.com/purvanshbhatt/Multi-Tool-Vulnerability-Scanner)** | A versatile, multi-tool vulnerability scanner. | `TypeScript`, `HTML`, `CSS` |
+| **[Visualforensics](https://github.com/purvanshbhatt/Visualforensics)** | A project developed for the Nano Banana Hackathon. | `TypeScript`, `HTML` |
+| **[Data-Lineage-Mapping-for-User-Authentication](https://github.com/purvanshbhatt/Data-Lineage-Mapping-for-User-Authentication)** | Mapping data lineage in user authentication systems. | `Python`, `C++`, `Java` |
 
 ---
 
@@ -38,10 +41,10 @@ Here are some of my favorite projects. You can find more on my repositories tab!
 
 Let's connect! You can find me on the following platforms:
 
-- **LinkedIn:** [Your LinkedIn Profile URL]
-- **Twitter / X:** [Your Twitter/X Profile URL]
-- **Personal Website/Portfolio:** [Your Portfolio URL]
-- **Email:** [Your Email Address]
+- **LinkedIn:** https://www.linkedin.com/in/purvanshbhatt
+- **Twitter / X:** @PurvanshBhatt
+- **Personal Website/Portfolio:** https://www.purvanshbhatt.github.io
+- **Email:** purvansh95b@gmail.com
 
 ---
 
