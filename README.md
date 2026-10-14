@@ -1,6 +1,6 @@
 # Purvansh Bhatt
-### **Detection & Response Engineer | Agentic SOC & Cloud IR | Attacker Mindset**
-New York, NY • [Website & Portfolio](https://purvanshbhatt.github.io) • [LinkedIn](https://linkedin.com/in/purvanshbhatt) • [Medium](https://medium.com/@purvansh95b) • [Email](mailto:purvansh95b@gmail.com)
+### **Incident Response & Detection Engineer | Cloud & AI Security | Creator of ResilAI & AI-Red-Team-Lab**
+New York, NY • [Interactive Portfolio](https://purvanshbhatt.github.io) • [LinkedIn](https://linkedin.com/in/purvanshbhatt) • [Medium Field Notes](https://medium.com/@purvansh95b) • [Email](mailto:purvansh95b@gmail.com)
 
 > *"Security is a core software engineering problem, not a compliance checklist. Decisiveness. Simplicity. Job's Not Finished."*
 
@@ -12,47 +12,27 @@ New York, NY • [Website & Portfolio](https://purvanshbhatt.github.io) • [Lin
 
 ---
 
-## ⚡ Engineering Philosophy & Track Record
+## ⚡ Engineering Philosophy & Incident Response Track Record
 
-I am a Detection & Response Engineer who treats security as an end-to-end engineering discipline rather than a passive alert-routing queue. When an incident occurs, I don't stop at filing triage tickets—I actively contain the adversary, extract volatile forensic artifacts, and collaborate directly with software engineering teams to ship production IAM policies and codebase fixes.
+I am an Incident Response & Detection Engineer who builds detection and containment systems with an attacker mindset. When an active breach or anomalous session occurs, I don't just route triage tickets—I actively contain the adversary session, trace telemetry across cloud audit streams and host kernels, and collaborate directly with software engineering teams to ship production IAM policies and codebase fixes.
 
-- **50+ Real-World Incidents Contained**: Handled end-to-end cloud, identity, and SaaS incidents across AWS, GCP, and Kubernetes environments.
-- **30% Faster Detection-to-Containment (MTTD/MTTR)**: Slashed incident response life-cycles through event-driven automation and ephemeral snapshotting.
+- **50+ End-to-End Cloud & Identity Incidents Contained**: Handled complex incidents across AWS IAM, GCP Cloud Run, Kubernetes pods, and SaaS identity providers.
+- **30% Reduction in Detection-to-Containment (MTTD/MTTR)**: Slashed response life-cycles through event-driven automation and ephemeral snapshotting.
 - **40% Manual Triage Reduction**: Built agentic detection engineering pipelines (**ResilAI**) that eliminate SOC alert fatigue while enforcing deterministic checks against LLM hallucinations.
 - **40% Attack Surface Reduction**: Engineered continuous least-privilege IAM reachability auditors and automated pull request workflows.
 - **Offensive Tradecraft**: Top 5% global ranking on TryHackMe (100+ rooms, 16 badges), Level 4 Hack The Box Operator, and 5 official tournament finishes (Cyber Apocalypse, Neurogrid).
 
 ---
 
-## 🛠️ Flagship Systems & Proof of Work
+## 🛠️ Production Systems & Proof of Work
 
-### 1. [ResilAI — Autonomous Incident Readiness & Agentic SOC Platform](https://medium.com/@purvansh95b)
-*Python • FastAPI • Google Gemini API • Vector DBs • Google Cloud Run • MITRE ATT&CK & ATLAS*
-- Built an agentic security operations platform that treats detection engineering like software development to eliminate alert drown.
-- **Deterministic Guardrails**: Coupled deterministic AST rule analysis with LLM reasoning loops, enforcing strict JSON output schemas and embedding distance classifiers to eliminate hallucinations and false negatives.
-- **Automated Production PRs**: Generates verifiable remediation code and scoped IAM policies directly into CI/CD pipelines instead of passive triage tickets.
-- **Published Architecture**: Documented in depth in [*Building ResilAI: An AI Incident Readiness Platform with Gemini and Google Cloud*](https://medium.com/@purvansh95b).
-
-### 2. [AIRS — AI-Assisted Vulnerability Scanner & Telemetry Engine](https://github.com/purvanshbhatt/AIRS)
-*Python • FastAPI • Docker • Google Cloud Run • MITRE ATT&CK • OWASP Top 10*
-- Architected an automated threat triage engine that reduced Mean Time to Detect (MTTD) by **65%** across 64,000+ simulated attack logs with zero telemetry loss.
-- Features deterministic rule engines, intelligent reasoning agents, and automated risk scoring mapped to enterprise ATT&CK tactics.
-
-### 3. [cloud-forensic-snapshot — Ephemeral Cloud IR & Memory Dump Engine](https://github.com/purvanshbhatt/cloud-forensic-snapshot)
-*Python • AWS Boto3 • GCP Cloud SDK • Volatility 3 • SHA-256 Chain of Custody*
-- Automated ephemeral cloud disk snapshot acquisition, volatile memory extraction, and evidence hash verification in under **4 minutes** (down from 2+ hours).
-- Automates minute-by-minute session invalidation: neutralizes compromised AWS STS credentials by applying inline `Deny` policies bounded by `aws:TokenIssueTime < [incident_timestamp]` and correlates rogue `AssumeRole` / `GetSecretValue` events in CloudTrail.
-
-### 4. [Adversarial-Prompt-Guard — Real-Time LLM Guardrail Framework](https://github.com/purvanshbhatt/self-healing-ai-security)
-*Python • PyTorch • Vector Embeddings • OWASP LLM-01 • MITRE ATLAS*
-- Engineered a real-time defense framework against prompt injection, jailbreaks, and indirect context exfiltration targeting multi-tenant LLM systems.
-- Attained **98.4% detection accuracy** across the OWASP Top 10 for LLMs while maintaining a **<25ms** inference latency overhead using dual-layer semantic token filtering and latent anomaly scoring.
-- [Try the Interactive Simulator on my Portfolio](https://purvanshbhatt.github.io/#simulations).
-
-### 5. [Ransomware-Sentinel — Linux Kernel & Host Telemetry Daemon](https://github.com/purvanshbhatt/Ransomware-Sentinel)
-*TypeScript • Python • eBPF • Linux /proc Forensics • cgroups*
-- Endpoint behavioral monitoring agent tracking process lifecycles via `/proc/<pid>/` descriptors, memory mappings, and syscall telemetry.
-- Detects container namespace escapes, `systemd`/`cron`/`LD_PRELOAD` persistence, and automated network adapter isolation upon mass file modification bursts.
+| System | Role & Architecture | Stack & Key Deliverables |
+| :--- | :--- | :--- |
+| **[ResilAI (AIRS)](https://medium.com/@purvansh95b)** | **Deterministic Pre-LLM Logic Firewall & AI Incident Readiness/Reconstruction Platform** | **Python, FastAPI, GCP Cloud Run, MITRE ATLAS**<br>• Dual-layer inspection engine combining deterministic AST syntax checks with semantic boundary classifiers.<br>• Inspects RAG context payloads (`MITRE AML.T0031`) to block prompt injection & data exfiltration before LLM inference.<br>• Emits structured SIEM JSON audit telemetry and triggers automated post-incident reconstruction playbooks.<br>• *Architecture documented in depth on [Medium](https://medium.com/@purvansh95b).* |
+| **[AI-Red-Team-Lab](https://github.com/purvanshbhatt/self-healing-ai-security)** | **Adversarial LLM Evaluation Pipeline Feeding Detection Rules** | **Python, Garak, Microsoft PyRIT, Promptfoo, OWASP LLM-01**<br>• Automated adversarial harness benchmarking multi-tenant AI systems against jailbreaks, system prompt extractions, and tool-calling abuse.<br>• Automatically converts discovered adversarial bypasses into deterministic Sigma detection rules and pre-LLM regex/vector guardrails.<br>• Evaluates cross-tenant RAG vector isolation and agentic tool boundaries under continuous fuzzing. |
+| **[OriginTrace / patchproof](https://github.com/purvanshbhatt/patchproof)** | **Automated Supply-Chain AST Delta Detection & Remediation Verification** | **Python, AST Parsing, Git Hooks, GitHub Actions**<br>• Automated framework performing AST differential analysis across third-party dependencies and internal security patches.<br>• Prevents supply-chain malicious code injection by verifying that security patches remediate CVEs without introducing runtime regressions.<br>• Validated across 50+ dependency updates with automated cryptographic integrity attestations. |
+| **[cloud-forensic-snapshot](https://github.com/purvanshbhatt/cloud-forensic-snapshot)** | **Ephemeral Cloud IR & Volatile Memory Acquisition Engine** | **Python, AWS Boto3, GCP SDK, Volatility 3, SHA-256 Chain of Custody**<br>• Automated cloud disk capture and volatile memory extraction under 4 minutes with cryptographically signed hashes.<br>• Minute-by-minute session invalidation: revokes active AWS STS tokens via inline `Deny` policies (`aws:TokenIssueTime < [incident_timestamp]`) and traces rogue `AssumeRole` / `GetSecretValue` events in CloudTrail. |
+| **[Ransomware-Sentinel](https://github.com/purvanshbhatt/Ransomware-Sentinel)** | **Linux Kernel & Host Telemetry Daemon** | **TypeScript, Python, eBPF, Linux /proc Forensics, cgroups**<br>• Real-time host behavioral agent inspecting `/proc/<pid>/` descriptors, memory mappings (`maps`), and syscalls (`execve`, `ptrace`).<br>• Detects container namespace escapes, `systemd`/`cron`/`LD_PRELOAD` persistence mechanisms, and triggers instant network adapter containment. |
 
 ---
 
@@ -61,10 +41,10 @@ I am a Detection & Response Engineer who treats security as an end-to-end engine
 | Domain | Technical Tradecraft & Tooling |
 | :--- | :--- |
 | **Detection & Response Engineering** | Agentic SOC pipelines, MITRE ATT&CK & MITRE ATLAS mapping, Sigma rules, YARA signatures, Splunk (SPL), KQL / Microsoft Sentinel, Sysmon, Wazuh, Falco, Zeek. |
-| **Cloud Identity & Incident Response** | AWS CloudTrail, GCP Cloud Audit Logs, STS session revocation (`aws:TokenIssueTime`), IAM reachability graph analysis, Terraform policy as code, GCP Cloud Run, AWS GuardDuty. |
-| **Linux & OS Internals** | `/proc` filesystem forensics (`/proc/<pid>/exe`, `maps`, `fd`), PID/mount/network namespaces, `cgroups` isolation, syscall tracing (`execve`, `ptrace`), Volatility 3 memory analysis, persistence analysis (`systemd`, `cron`, `LD_PRELOAD`). |
+| **Cloud Identity & Incident Response** | AWS CloudTrail, GCP Cloud Audit Logs, STS session revocation (`aws:TokenIssueTime`), IAM reachability graph analysis, Terraform policy as code, GCP Cloud Run, AWS GuardDuty, Okta/SAML session containment. |
+| **Linux & OS Internals** | `/proc` filesystem forensics (`/proc/<pid>/exe`, `maps`, `fd`), PID/mount/network namespaces (`unshare`, `nsenter`), `cgroups` isolation, syscall tracing (`execve`, `ptrace`), Volatility 3 memory analysis, persistence analysis (`systemd`, `cron`, `LD_PRELOAD`). |
 | **Networking & Traffic Forensics** | TCP state machines, TLS 1.3 handshakes (SNI, cipher suites, session resumption), DNS tunneling detection (entropy analysis), Wireshark/tshark packet dissection, SSRF metadata protections (`169.254.169.254` IMDSv1 vs IMDSv2). |
-| **AI Security & Red Teaming** | OWASP Top 10 for LLMs (LLM-01 Prompt Injection, Insecure Output Handling), semantic vector classifiers, adversarial fuzzing, multi-tenant AI architecture defense (Vaults, Spaces, Agent Memory). |
+| **AI Security & Red Teaming** | OWASP Top 10 for LLMs (LLM-01 Prompt Injection, Insecure Output Handling), pre-LLM deterministic firewalls, semantic vector classifiers, adversarial fuzzing (Garak, PyRIT, Promptfoo), multi-tenant AI architecture defense (Vaults, Spaces, Agent Memory). |
 
 ---
 
@@ -78,7 +58,7 @@ I am a Detection & Response Engineer who treats security as an end-to-end engine
 
 ---
 
-## 💼 Interactive Recruiter Fast-Track Dossier
+## 💼 Interactive Recruiter Fast-Track Dossier & Live Platform
 
 Visiting my portfolio? Click the **`RECRUITER DOSSIER`** button or run `./recruiter_dossier.sh` in the terminal for a 1-click candidate briefing tailored to:
 - **SOC & Threat Operations** (65% MTTD reduction, 0.0% telemetry loss)
